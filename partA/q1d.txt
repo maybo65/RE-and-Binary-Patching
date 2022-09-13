@@ -1,2 +1,0 @@
-in order to making sure the patched program will always return 1, we are simply going to replace the "movzx eax, al" instruction in 0x59a address with movxz eax, 1 instrtuction, and a nop (the nop is only there becuse we replace a 3 bytes instrction with a 2 bytes instruction).
-the idea behind this is that the movzx eax, al instruction sets al to be 1 iff the message i valid (because of the cmp and setx instructions before). so, by changing this instruction to the new one, we are making sure the message is alwayes valid, no matter what is the cmp result.

@@ -1,5 +1,0 @@
-if the length of the message is less or equal to two, this is a special edge case. to order to fix this, we are going just to makesure the length of the message is two, and the second byte is equal to 0x8c.
-assuming this is not the case, we are going to calclate the excpected xor result of the message (just like the message check does). if the second byte of the message is not equal to the expected xor result we just calculated, we'll just gonna change this byte. this way the message is going to be valid forsure.  
-
-
- 
