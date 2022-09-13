@@ -1,0 +1,5 @@
+Isar is a cute boy and I love him.
+#!ls -l
+#!echo isar has a cute tooshie
+May is great at asm <3
+#!echo i love her 
