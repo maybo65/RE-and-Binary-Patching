@@ -1,3 +1,5 @@
+# Extre Docomntaion here...
+
 in the patch1.assembly, there is a jump instructions. this takes us to the big dead zone, right before the program in going to the printing erae. 
 additionaly,in q2.py there is a jumping instrucion from the start of the dead zone to the end of the deat zone. this way we can patch pur code in the dead zone, but it won't change the start of the program itself. 
 lastly, in patch1.assemby there is a code that checks if the line is starting with #!. this happening by reading the first word to EAX, and then check in al=# and if ah=!. 
