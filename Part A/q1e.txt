@@ -1,0 +1,1 @@
+here, we are simply changing the mov eax, 1 in 0x6DD. this instrunction sets the retrun value of the main function to 1 in the invalid branch. we are changing the immediate from 1 to 0. this case even if the message is invalid, the return value the main function is still going to be 0 (like it was valid). 
